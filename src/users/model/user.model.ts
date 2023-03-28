@@ -21,6 +21,7 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
+
 });
 
 export type User = InferSchemaType<typeof UserSchema>;
